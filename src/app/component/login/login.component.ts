@@ -15,7 +15,7 @@ import { ButtonModule } from 'primeng/button';
     NgIf,
     ButtonModule,
     InputTextModule,
-    FloatLabelModule,
+    FloatLabelModule
   ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss',

@@ -1,6 +1,11 @@
 body{
     margin: 0;
 }
+.left{
+width: 50%;
+height: 98vh;
+background-image: url("https://placehold.jp/0779a5/ffffff/150x150.png") ;
+}
 .partial-1 {
   border: 2px solid red;
   display: block;
@@ -11,8 +16,6 @@ body{
 .partial {
   align-self: baseline;
   vertical-align: middle;
-  width: 68%;
-  max-width: 30rem;
 }
 .partial-2 {
   border: 2px dashed black;
@@ -24,4 +27,5 @@ body{
 .fixing-width {
   border: 2px solid red;
   width: 23em;
+  margin: auto;
 }
