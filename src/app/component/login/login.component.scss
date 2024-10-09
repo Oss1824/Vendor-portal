@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.partial-1 {
+  border: 2px solid red;
+  display: block;
+  border-radius: 7px;
+  background-color: rgb(87, 87, 214);
+  width: 40%;
+}
+.partial {
+  align-self: baseline;
+  vertical-align: middle;
+  width: 68%;
+  max-width: 30rem;
+}
+.partial-2 {
+  border: 2px dashed black;
+  margin: 0;
+  padding: 0;
+  height: 2rem;
+  float: right;
+}
+.fixing-width {
+  border: 2px solid red;
+  width: 23em;
+}
