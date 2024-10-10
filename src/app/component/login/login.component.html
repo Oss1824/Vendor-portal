@@ -1,8 +1,10 @@
+
 <div class="w-screen flex h-screen">
   <div class="left w-6 text-center align-self-center">
 Left
   </div>
-  <div class="w-6 bg-green-200">
+  <div class="bg-green-200 card">
+    <h3 [@openClose]="isOpen ? 'open' : 'closed'">{{title}} </h3> <br>
     <p-floatLabel>
       <input pInputText class=" m-auto fixing-width my-3" d="username" [(ngModel)]="vendor.username" />
       <label for="username">Username</label>
@@ -13,25 +15,14 @@ Left
       <label for="password">Password</label>
     </p-floatLabel>
     <br>
-    <button class=" m-auto my-3 fixing-width" (click)="submitForm(vendor)" pButton pRipple label="Submit" [disabled] = "!enableButton" [class]="sumbitButtonStyle"></button>
+
+    <nav>
+
+      <button type="button" (click)="toggle()">Toggle Open/Close</button>
+    </nav>
+    <div class="open-close-container">
+      <p [@openClose]="isOpen ? 'open' : 'closed'">The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
+    </div>
+      <button class=" m-auto my-3 fixing-width" (click)="submitForm(vendor)" pButton pRipple label="Submit" [disabled] = "!enableButton" [class]="sumbitButtonStyle"></button>
   </div>
-</div>
-
-
-
-<div class="partial-2 flex w-6 bg-blue-500">
-  
-<div class="bg-yellow-600 partial flex-1 border-round-xl m-auto">
-  <!-- <p-floatLabel>
-    <input pInputText class="w-full m-auto my-3" d="username" [(ngModel)]="vendor.username" />
-    <label for="username">Username</label>
-  </p-floatLabel>
-  <br />
-  <p-floatLabel class="w-full m-auto my-3">
-    <input class="w-full m-auto" pInputText id="password" [(ngModel)]="vendor.password" />
-    <label for="password">Password</label>
-  </p-floatLabel>
-  <br>
-  <button class="w-full m-auto my-3" (click)="submitForm(vendor)" pButton pRipple label="Submit" [disabled] = "!enableButton" [class]="sumbitButtonStyle"></button> -->
-</div>
 </div>

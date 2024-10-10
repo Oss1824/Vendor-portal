@@ -27,5 +27,23 @@ background-image: url("https://placehold.jp/0779a5/ffffff/150x150.png") ;
 .fixing-width {
   border: 2px solid red;
   width: 23em;
+  height: 2rem;
   margin: auto;
+}
+.card{
+    border: 2px dashed goldenrod;
+    height: max-content;
+    margin: auto;
+}
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+.open-close-container {
+  border: 1px solid #dddddd;
+  margin-top: 1em;
+  padding: 20px 20px 0px 20px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
 }
