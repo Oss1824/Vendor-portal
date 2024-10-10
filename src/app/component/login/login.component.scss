@@ -1,7 +1,7 @@
 
-#title{
-  border: 2px solid green;
-  margin-bottom: 4rem;
+.title{
+  margin-top: 0;
+  margin-bottom: 7rem;
 }
 .left{
 width: 50%;
@@ -9,15 +9,12 @@ height: 98vh;
 background-image: url("https://placehold.jp/0779a5/ffffff/150x150.png") ;
 }
 .fixing-width {
-  border: 2px solid red;
   width: 23em;
   height: 2rem;
   margin: auto;
 }
 .card{
-    border: 2px dashed goldenrod;
-    height: max-content;
-    margin: auto;
+    height: 60%;
 }
 // .open-close-container {
 //   border: 1px solid #dddddd;

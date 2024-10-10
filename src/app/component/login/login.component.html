@@ -3,8 +3,8 @@
   <div class="left w-6 text-center align-self-center">
 Left
   </div>
-  <div class="block card">
-    <h3 class="mb-8 text-center" [@buttonColor]="showHeader ? 'open' : 'closed'">{{title}} </h3> <br>
+  <div class="block card m-auto">
+    <h2 class="text-center title" [@buttonColor]="showHeader ? 'open' : 'closed'">{{title}} </h2> <br>
     <p-floatLabel>
       <input pInputText class=" m-auto fixing-width my-3" d="username" [(ngModel)]="vendor.username" />
       <label for="username">Username</label>

@@ -37,7 +37,7 @@ import {
           opacity: 0
         })
       ),
-      transition('open <=> closed', [animate('0.6s 100ms ease-in-out')]),
+      transition('open <=> closed', [animate('0.6s 200ms ease-in-out')]),
     ])
   ],
   templateUrl: './login.component.html',
@@ -73,7 +73,6 @@ export class LoginComponent implements DoCheck , AfterViewInit {
   submitForm(value: any) {
     this.isOpen = !this.isOpen;
     this.vendor = {};
-    this.enableButton = false;
     this.title = 'Thank you';
   }
 
