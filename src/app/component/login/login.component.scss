@@ -1,28 +1,12 @@
-body{
-    margin: 0;
+
+#title{
+  border: 2px solid green;
+  margin-bottom: 4rem;
 }
 .left{
 width: 50%;
 height: 98vh;
 background-image: url("https://placehold.jp/0779a5/ffffff/150x150.png") ;
-}
-.partial-1 {
-  border: 2px solid red;
-  display: block;
-  border-radius: 7px;
-  background-color: rgb(87, 87, 214);
-  width: 40%;
-}
-.partial {
-  align-self: baseline;
-  vertical-align: middle;
-}
-.partial-2 {
-  border: 2px dashed black;
-  margin: 0;
-  padding: 0;
-  height: 2rem;
-  float: right;
 }
 .fixing-width {
   border: 2px solid red;
@@ -35,15 +19,11 @@ background-image: url("https://placehold.jp/0779a5/ffffff/150x150.png") ;
     height: max-content;
     margin: auto;
 }
-:host {
-  display: block;
-  margin-top: 1rem;
-}
-.open-close-container {
-  border: 1px solid #dddddd;
-  margin-top: 1em;
-  padding: 20px 20px 0px 20px;
-  color: #000000;
-  font-weight: bold;
-  font-size: 20px;
-}
+// .open-close-container {
+//   border: 1px solid #dddddd;
+//   margin-top: 1em;
+//   padding: 20px 20px 0px 20px;
+//   color: #000000;
+//   font-weight: bold;
+//   font-size: 20px;
+// }
