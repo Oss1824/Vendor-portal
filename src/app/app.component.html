@@ -1,3 +1,5 @@
-
-<router-outlet></router-outlet>
-<app-login></app-login>
+<div class="w-7 card" [@enableCard]="enableAnimation ? 'open' : 'closed'">
+    <img src="../assets/logo.ico" alt="OSS logo" class="flex m-auto mb-6">
+  <h1 class="heading w-max m-auto">Welcome</h1>
+  <a href="login" class="no-underline button p-button-success flex m-auto mt-6 hover:shadow-7" icon="pi pi-check" pButton pRipple label="Submit"></a>
+</div>
